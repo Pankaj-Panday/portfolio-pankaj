@@ -80,6 +80,18 @@ export const assets = {
 
 export const workData = [
   {
+    title: "AI car market place",
+    description: "Full-Stack app using Next JS",
+    bgImage: "/work-5.png",
+    link: "https://vehiql-ai-eight.vercel.app/",
+  },
+  {
+    title: "Startup Directory",
+    description: "Full-Stack app using Next JS",
+    bgImage: "/work-6.png",
+    link: "https://yc-directory-rho-pearl.vercel.app/",
+  },
+  {
     title: "Recipes App",
     description: "Full-Stack app using MERN stack",
     bgImage: "/work-1.png",
