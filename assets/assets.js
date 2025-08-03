@@ -80,6 +80,12 @@ export const assets = {
 
 export const workData = [
   {
+    title: "Real-Time Chat App",
+    description: "Full-Stack app using Next JS + SocketIO",
+    bgImage: "/work-7.png",
+    link: "https://chatify-hdif.onrender.com/",
+  },
+  {
     title: "AI car market place",
     description: "Full-Stack app using Next JS",
     bgImage: "/work-5.png",
@@ -115,12 +121,12 @@ export const workData = [
     bgImage: "/work-3.png",
     link: "https://github.com/Pankaj-Panday/automated-resume",
   },
-  {
-    title: "Landing Page",
-    description: "React Single Page Website",
-    bgImage: "/work-4.png",
-    link: "https://pankaj-panday.github.io/react-landing-page/",
-  },
+  // {
+  //   title: "Landing Page",
+  //   description: "React Single Page Website",
+  //   bgImage: "/work-4.png",
+  //   link: "https://pankaj-panday.github.io/react-landing-page/",
+  // },
 ];
 
 
