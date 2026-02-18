@@ -35,7 +35,7 @@ import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
-import postman from "./postman.png"
+import postman from "./postman.png";
 
 export const assets = {
   user_image,
@@ -80,22 +80,16 @@ export const assets = {
 
 export const workData = [
   {
+    title: "Admin Dashboard",
+    description: "Full-Stack app using Next JS",
+    bgImage: "/work-8.png",
+    link: "https://nextadmindashboard-ten.vercel.app/",
+  },
+  {
     title: "Real-Time Chat App",
     description: "Full-Stack app using Next JS + SocketIO",
     bgImage: "/work-7.png",
     link: "https://chatify-hdif.onrender.com/",
-  },
-  {
-    title: "AI car market place",
-    description: "Full-Stack app using Next JS",
-    bgImage: "/work-5.png",
-    link: "https://vehiql-ai-eight.vercel.app/",
-  },
-  {
-    title: "Startup Directory",
-    description: "Full-Stack app using Next JS",
-    bgImage: "/work-6.png",
-    link: "https://yc-directory-rho-pearl.vercel.app/",
   },
   {
     title: "Recipes App",
@@ -104,17 +98,17 @@ export const workData = [
     link: "https://food-recipe-app-frontend.vercel.app/",
   },
   {
+    title: "Startup Directory",
+    description: "Full-Stack app using Next JS",
+    bgImage: "/work-6.png",
+    link: "https://yc-directory-rho-pearl.vercel.app/",
+  },
+  {
     title: "Funiro Ecommerce",
     description: "React Frontend for Ecommerce",
     bgImage: "/work-2.png",
     link: "https://ecommerce-react-seven-chi.vercel.app/",
   },
-  // {
-  //   title: "Parlour Booking",
-  //   description: "React Static Multipage Site",
-  //   bgImage: "/work-4.png",
-  //   link: "https://parlour-gold.vercel.app/"
-  // },
   {
     title: "Resume Uploader",
     description: "Google Drive API-based File Manager",
@@ -122,13 +116,24 @@ export const workData = [
     link: "https://github.com/Pankaj-Panday/automated-resume",
   },
   // {
+  //   title: "Parlour Booking",
+  //   description: "React Static Multipage Site",
+  //   bgImage: "/work-4.png",
+  //   link: "https://parlour-gold.vercel.app/"
+  // },
+  // {
   //   title: "Landing Page",
   //   description: "React Single Page Website",
   //   bgImage: "/work-4.png",
   //   link: "https://pankaj-panday.github.io/react-landing-page/",
   // },
+  // {
+  //   title: "AI car market place",
+  //   description: "Full-Stack app using Next JS",
+  //   bgImage: "/work-5.png",
+  //   link: "https://vehiql-ai-eight.vercel.app/",
+  // },
 ];
-
 
 export const skillsData = [
   {
@@ -180,11 +185,9 @@ export const infoList = [
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projects",
-    description:
-      "Developed multiple full-stack web applications",
+    description: "Developed multiple full-stack web applications",
   },
 ];
-
 
 export const toolsData = [
   // assets.vscode,
