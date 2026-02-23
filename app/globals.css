@@ -2,14 +2,14 @@
 
 @theme {
   --color-lightHover: #fcf4ff;
-  --color-darkHover: #2a004a;
-  --color-darkTheme: #11001f;
+  --color-darkTheme: #141414;
+  --color-darkHover: #1f1f1f;
 
   --font-outfit: "Outfit", sans-serif;
   --font-ovo: "Ovo", serif;
 
   --shadow-black: 4px 4px 0 #000;
-  --shadow-white:  4px 4px 0 #fff;
+  --shadow-white: 4px 4px 0 #fff;
 
   --grid-cols-auto: repeat(auto-fit, minmax(250px, 1fr));
 }
