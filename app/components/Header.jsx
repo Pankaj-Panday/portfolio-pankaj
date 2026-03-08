@@ -1,9 +1,9 @@
-import React from 'react'
-import Image from 'next/image'
-import { assets } from '@/assets/assets'
+import React from "react";
+import Image from "next/image";
+import { assets } from "@/assets/assets";
 import { motion } from "motion/react";
 
-const Header = ({isDarkMode}) => {
+const Header = ({ isDarkMode }) => {
   return (
     <div
       id="home"
@@ -61,15 +61,15 @@ const Header = ({isDarkMode}) => {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.2 }}
-          href="/Pankaj-resume-fullstack.pdf"
+          href="/Pankaj_Panday_resume.pdf"
           className="flex items-center gap-2 rounded-full border border-gray-500 bg-white px-10 py-3 dark:text-black"
-          download="Pankaj-Panday-resume.pdf"
+          download="Pankaj_Panday_resume.pdf"
         >
           My resume <Image src={assets.download_icon} alt="" className="w-4" />
         </motion.a>
       </div>
     </div>
   );
-}
+};
 
-export default Header
+export default Header;
