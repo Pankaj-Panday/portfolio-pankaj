@@ -80,6 +80,12 @@ export const assets = {
 
 export const workData = [
   {
+    title: "FreshMeals",
+    description: "Mobile app using React Native",
+    bgImage: "/work-9.png",
+    link: "https://github.com/pankaj-panday/mealapp",
+  },
+  {
     title: "Admin Dashboard",
     description: "Full-Stack app using Next JS",
     bgImage: "/work-8.png",
